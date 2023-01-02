@@ -2,8 +2,8 @@
 
 A Challenge by `Arsh Goyal` to start with the goals today and to prepare for DSA interview for 6 major companies and stand a chance to win mentorship, referral and exciting perks.
 
-[![ReviseWithArsh](https://img.shields.io/badge/Language-JAVA-934fb5?style=for-the-badge&logo=cpp&logoColor=white)](https://github.com/bhartik021/6Companies30days)
-[![ReviseWithArsh](https://img.shields.io/badge/ReviseWithArsh-6Companies30Days-green?style=for-the-badge&logo=github)](https://github.com/bhartik021/6Companies30days)
+[![ReviseWithArsh](https://img.shields.io/badge/Language-JAVA-934fb5?style=for-the-badge&logo=cpp&logoColor=white)](https://github.com/1610ayushi/6-Companies-30days-challenge)
+[![ReviseWithArsh](https://img.shields.io/badge/ReviseWithArsh-6Companies30Days-green?style=for-the-badge&logo=github)](https://github.com/1610ayushi/6-Companies-30days-challenge)
 
 For complete details about the Challenge , go through the official doc and video: 
 
