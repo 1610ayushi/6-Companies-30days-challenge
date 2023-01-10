@@ -13,8 +13,8 @@
 | 8 | Maximum Points in Archery Competition| [Problem Link](https://leetcode.com/problems/maximum-points-in-an-archery-competition/) | ✅ |
 | 9 | Initial Public Offering | [Problem Link](https://leetcode.com/problems/ipo/) | ✅ |
 | 10 | People and Secret | [Problem Link](https://leetcode.com/problems/number-of-people-aware-of-a-secret/) |  ✅|
-| 11 | Invalid Transactions in an EMI | [Problem Link](https://leetcode.com/problems/invalid-transactions/) | |
-| 12 | All elements of a binary Search Tree| [Problem Link](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | |
-| 13 | Rhombus Sums in a GRID | [Problem Link](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/) | |
-| 14 | Nice Pairs in Array (OTT Platforms and John)| [Problem Link](https://leetcode.com/problems/count-nice-pairs-in-an-array/) |   |
-| 15 | Good People based on Statements| [Problem Link](https://leetcode.com/problems/maximum-good-people-based-on-statements/) |   |
+| 11 | Invalid Transactions in an EMI | [Problem Link](https://leetcode.com/problems/invalid-transactions/) |  ✅|
+| 12 | All elements of a binary Search Tree| [Problem Link](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) |  ✅|
+| 13 | Rhombus Sums in a GRID | [Problem Link](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/) | ✅ |
+| 14 | Nice Pairs in Array (OTT Platforms and John)| [Problem Link](https://leetcode.com/problems/count-nice-pairs-in-an-array/) |   ✅ |
+| 15 | Good People based on Statements| [Problem Link](https://leetcode.com/problems/maximum-good-people-based-on-statements/) | ✅   |
