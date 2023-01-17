@@ -1,4 +1,4 @@
-# Adobe
+# Flipkart
 
 | S. No. | Problem | Problem Link | Status |
 | ------ |:-------:| ------------ | ------ |
