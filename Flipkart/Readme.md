@@ -2,7 +2,7 @@
 
 | S. No. | Problem | Problem Link | Status |
 | ------ |:-------:| ------------ | ------ |
-| 1 | Partition to K Equal Sum Subsets| [Problem Link](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | |
+| 1 | Partition to K Equal Sum Subsets| [Problem Link](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | ✅|
 | 2 | Sale and Offers at Flipkart BBD| [Problem Link](https://leetcode.com/problems/shopping-offers/) | |
 | 3 | Remove Zero Sum Consecutive Nodes| [Problem Link](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | |
 | 4 | Winner of the Game| [Problem Link](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | |
