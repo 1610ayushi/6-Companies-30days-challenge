@@ -1,25 +1,59 @@
-    public int findTheCity(int n, int[][] edges, int distanceThreshold) {
-        int[][] dis = new int[n][n];
-        int res = 0, smallest = n;
-        for (int[] row : dis)
-            Arrays.fill(row, 10001);
-        for (int[] e : edges)
-            dis[e[0]][e[1]] = dis[e[1]][e[0]] = e[2];
-        for (int i = 0; i < n; ++i)
-            dis[i][i] = 0;
-        for (int k = 0; k < n; ++k)
-            for (int i = 0; i < n; ++i)
-                for (int j = 0; j < n; ++j)
-                    dis[i][j] = Math.min(dis[i][j], dis[i][k] + dis[k][j]);
-        for (int i = 0; i < n; i++) {
-            int count = 0;
-            for (int j = 0; j < n; ++j)
-                if (dis[i][j] <= distanceThreshold)
-                    ++count;
-            if (count <= smallest) {
-                res = i;
-                smallest = count;
+class Solution {
+    public int[] closestPrimes(int left, int right) {
+        boolean k[]=new boolean[right+1];
+        Arrays.fill(k,true);
+        k[0]=k[1]=false;
+        for(int i=2;i<=Math.sqrt(right);i++)
+        {
+            if(k[i])
+            {
+                for(int j=i*i;j<=right;j+=i)
+                {
+                    k[j]=false;
+                }
             }
         }
-        return res;
+        int a[]=new int[2];
+        a[0]=a[1]=-1;
+        int p=Integer.MAX_VALUE,m=1,f=0;
+        for(int i=left;i<=right;i++)
+        {
+            if(k[i] && m==0)
+            {
+                p=Math.min(p,i-f);
+                f=i;
+            }
+            else if(k[i] && m==1)
+            {
+                f=i;
+                m=0;
+            }
+        }
+        //System.out.println(p);
+        for(int i=left;i<=right;i++)
+        {
+            if(k[i] == true && a[0] != -1)
+            {
+                if(p == i-a[0])
+                {
+                    a[1]=i;
+                    break;
+                }
+                else
+                {
+                    a[0]=i;
+                }
+            }
+            else if(k[i] == true && a[0]==-1)
+            {
+                a[0]=i;
+            }
+        }
+        //System.out.println(a[0]+" "+a[1]);
+        if(a[0] == -1 || a[1] == -1)
+        {
+            a[0]=a[1]=-1;
+        }
+        return a;
     }
+}
